@@ -2393,6 +2393,12 @@ div.demo img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 120px;
+}
+@media (max-width: 1199px) {
+  .tpbreadcrumb-overlay {
+    margin-top: 80px;
+  }
 }
 .tpbreadcrumb-overlay::before {
   position: absolute;
